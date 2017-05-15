@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93C0020DEFC7ABA6EA547F55 /* Pods_PoznanGraves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCB1F08BAF404EADC745DFA /* Pods_PoznanGraves.framework */; };
+		A626E2FB1EC7A3F60077A4CC /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A626E2FA1EC7A3F60077A4CC /* ViewControllerProtocol.swift */; };
+		A626E2FD1EC7A43A0077A4CC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A626E2FC1EC7A43A0077A4CC /* StringExtension.swift */; };
+		A643ACE21EC717F100F41EC3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643ACE11EC717F100F41EC3 /* DetailsViewController.swift */; };
+		A65A99DA1EC64FA200D77A97 /* CellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A99D91EC64FA200D77A97 /* CellObject.swift */; };
 		A69463E11EC63713005D1939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69463E01EC63713005D1939 /* AppDelegate.swift */; };
 		A69463E31EC63713005D1939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69463E21EC63713005D1939 /* ViewController.swift */; };
 		A69463E61EC63713005D1939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69463E41EC63713005D1939 /* Main.storyboard */; };
 		A69463E81EC63713005D1939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69463E71EC63713005D1939 /* Assets.xcassets */; };
 		A69463EB1EC63713005D1939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69463E91EC63713005D1939 /* LaunchScreen.storyboard */; };
+		A69463F31EC637EA005D1939 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69463F21EC637EA005D1939 /* TableViewManager.swift */; };
+		A69463F51EC63A5B005D1939 /* HttpExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69463F41EC63A5B005D1939 /* HttpExtension.swift */; };
+		A69463F71EC63F02005D1939 /* GraveDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69463F61EC63F02005D1939 /* GraveDataObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		829AC2A1CC83B511D04C226B /* Pods-PoznanGraves.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoznanGraves.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoznanGraves/Pods-PoznanGraves.release.xcconfig"; sourceTree = "<group>"; };
+		A626E2FA1EC7A3F60077A4CC /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		A626E2FC1EC7A43A0077A4CC /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A643ACE11EC717F100F41EC3 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A65A99D91EC64FA200D77A97 /* CellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellObject.swift; sourceTree = "<group>"; };
 		A69463DD1EC63713005D1939 /* PoznanGraves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoznanGraves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69463E01EC63713005D1939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A69463E21EC63713005D1939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,11 @@
 		A69463E71EC63713005D1939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69463EA1EC63713005D1939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69463EC1EC63713005D1939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69463F21EC637EA005D1939 /* TableViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
+		A69463F41EC63A5B005D1939 /* HttpExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpExtension.swift; sourceTree = "<group>"; };
+		A69463F61EC63F02005D1939 /* GraveDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraveDataObject.swift; sourceTree = "<group>"; };
+		B88ADAB1CB4C8062AE85A72B /* Pods-PoznanGraves.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoznanGraves.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoznanGraves/Pods-PoznanGraves.debug.xcconfig"; sourceTree = "<group>"; };
+		FFCB1F08BAF404EADC745DFA /* Pods_PoznanGraves.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoznanGraves.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C0020DEFC7ABA6EA547F55 /* Pods_PoznanGraves.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22F0802716D42AD505B80FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFCB1F08BAF404EADC745DFA /* Pods_PoznanGraves.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DA8051E77CF6183D36A4551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B88ADAB1CB4C8062AE85A72B /* Pods-PoznanGraves.debug.xcconfig */,
+				829AC2A1CC83B511D04C226B /* Pods-PoznanGraves.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A69463D41EC63713005D1939 = {
 			isa = PBXGroup;
 			children = (
 				A69463DF1EC63713005D1939 /* PoznanGraves */,
 				A69463DE1EC63713005D1939 /* Products */,
+				2DA8051E77CF6183D36A4551 /* Pods */,
+				22F0802716D42AD505B80FFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,53 @@
 		A69463DF1EC63713005D1939 /* PoznanGraves */ = {
 			isa = PBXGroup;
 			children = (
+				A6F85D811EC9EF1600F36240 /* Controllers */,
+				A6F85D7F1EC9EF0A00F36240 /* Models */,
+				A6F85D801EC9EF1100F36240 /* Others */,
+			);
+			path = PoznanGraves;
+			sourceTree = "<group>";
+		};
+		A6F85D7F1EC9EF0A00F36240 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A69463F61EC63F02005D1939 /* GraveDataObject.swift */,
+				A65A99D91EC64FA200D77A97 /* CellObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A6F85D801EC9EF1100F36240 /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				A69463E01EC63713005D1939 /* AppDelegate.swift */,
-				A69463E21EC63713005D1939 /* ViewController.swift */,
 				A69463E41EC63713005D1939 /* Main.storyboard */,
 				A69463E71EC63713005D1939 /* Assets.xcassets */,
 				A69463E91EC63713005D1939 /* LaunchScreen.storyboard */,
 				A69463EC1EC63713005D1939 /* Info.plist */,
+				A626E2FC1EC7A43A0077A4CC /* StringExtension.swift */,
 			);
-			path = PoznanGraves;
+			name = Others;
+			sourceTree = "<group>";
+		};
+		A6F85D811EC9EF1600F36240 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F85D821EC9EF3E00F36240 /* Protocola and Extensions */,
+				A69463F21EC637EA005D1939 /* TableViewManager.swift */,
+				A69463E21EC63713005D1939 /* ViewController.swift */,
+				A643ACE11EC717F100F41EC3 /* DetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A6F85D821EC9EF3E00F36240 /* Protocola and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A69463F41EC63A5B005D1939 /* HttpExtension.swift */,
+				A626E2FA1EC7A3F60077A4CC /* ViewControllerProtocol.swift */,
+			);
+			name = "Protocola and Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A69463EF1EC63713005D1939 /* Build configuration list for PBXNativeTarget "PoznanGraves" */;
 			buildPhases = (
+				B8750A29444FFEB23B64229C /* [CP] Check Pods Manifest.lock */,
 				A69463D91EC63713005D1939 /* Sources */,
 				A69463DA1EC63713005D1939 /* Frameworks */,
 				A69463DB1EC63713005D1939 /* Resources */,
+				411578D8E791DC87FDC91EB0 /* [CP] Embed Pods Frameworks */,
+				C65AD34E3489B86104B46BF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +212,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		411578D8E791DC87FDC91EB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoznanGraves/Pods-PoznanGraves-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8750A29444FFEB23B64229C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C65AD34E3489B86104B46BF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoznanGraves/Pods-PoznanGraves-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A69463D91EC63713005D1939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A626E2FB1EC7A3F60077A4CC /* ViewControllerProtocol.swift in Sources */,
+				A69463F71EC63F02005D1939 /* GraveDataObject.swift in Sources */,
 				A69463E31EC63713005D1939 /* ViewController.swift in Sources */,
+				A69463F31EC637EA005D1939 /* TableViewManager.swift in Sources */,
 				A69463E11EC63713005D1939 /* AppDelegate.swift in Sources */,
+				A626E2FD1EC7A43A0077A4CC /* StringExtension.swift in Sources */,
+				A643ACE21EC717F100F41EC3 /* DetailsViewController.swift in Sources */,
+				A65A99DA1EC64FA200D77A97 /* CellObject.swift in Sources */,
+				A69463F51EC63A5B005D1939 /* HttpExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +396,7 @@
 		};
 		A69463F01EC63713005D1939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88ADAB1CB4C8062AE85A72B /* Pods-PoznanGraves.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ABS6LY27V6;
@@ -274,6 +410,7 @@
 		};
 		A69463F11EC63713005D1939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829AC2A1CC83B511D04C226B /* Pods-PoznanGraves.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ABS6LY27V6;
@@ -304,6 +441,7 @@
 				A69463F11EC63713005D1939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
